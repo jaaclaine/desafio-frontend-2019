@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Frontend</title>
+
+	<meta name="viewport" content="initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="" content="">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+	<nav>
+		<div class="container">
+			<div class="col-md-4 col-sm-4">
+				<a href="/">
+					<img src="img/logo-mktplace.png">
+				</a>
+			</div>
+			<div class="col-md-8 col-sm-8 nav_links">
+				<a href="/index.html">Produtos</a>
+				<a href="/carrinho.html" class="nav_cart">
+					<img src="img/icon_cart.png">
+					<span>2</span>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<section class="cart container">
+		<div class="row">
+
+			<div class="clearfix cart_title">
+				<div class="col-md-1"></div>
+				<div class="col-md-5">Produtos</div>
+				<div class="col-md-2">Quantidade</div>
+				<div class="col-md-2">Valor unitário</div>
+				<div class="col-md-2">Total</div>
+			</div>
+
+			<div class="clearfix cart_item">
+				<div class="col-md-1">
+					<a href="/">
+						<img src="img/icon_garbage.png">
+					</a>
+				</div>
+				<div class="col-md-5">
+					<b>Eletrônicos</b>
+					<h3>Notebook Acer Aspire 3 A315</h3>
+				</div>
+				<div class="col-md-2">
+					<button>-</button>
+					<input type="text" value="01">
+					<button>+</button>
+				</div>
+				<div class="col-md-2">
+					<b>R$ 1.500,00</b> à vista <br>
+					ou 10x R$150,00
+				</div>
+				<div class="col-md-2">
+					<b>R$ 1.500,00</b> à vista  <br>
+					ou 10x R$150,00
+				</div>
+			</div>
+
+			<div class="clearfix cart_total">
+				<div class="col-md-10">
+					Total à vista
+				</div>
+				<div class="col-md-2 cart_total_value">
+					R$3.000,00
+				</div>
+				<div class="col-md-10">
+					Total parcelado
+				</div>
+				<div class="col-md-2">
+					em até <b>10x R$300,00</b> <br>
+					(Total R$3.000,00)
+				</div>
+			</div>
+
+			<div class="clearfix cart_finish">
+				<div class="col-md-7">
+					<a href="#">
+						<img src="img/icon_garbage.png">
+						Limpar carrinho
+					</a>
+				</div>
+				<div class="col-md-5">
+					<button>Continuar comprando</button>
+					<button class="cart_finish_total">Concluir compra</button>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<footer>
+		<a href="#">
+			<img src="img/logo-mktplace-footer.png">
+		</a>
+	</footer>
+
+
+</body>
+</html>

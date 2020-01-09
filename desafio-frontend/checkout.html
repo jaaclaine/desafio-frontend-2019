@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Frontend</title>
+
+	<meta name="viewport" content="initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="" content="">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="https://kit.fontawesome.com/f55670b4a2.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+	<nav>
+		<div class="container">
+			<div class="col-md-4 col-sm-4">
+				<a href="/index.html">
+					<img src="img/logo-mktplace.png">
+				</a>
+			</div>
+			<div class="col-md-8 col-sm-8 nav_links">
+				<a href="/index.html">Produtos</a>
+				<a href="/carrinho.html" class="nav_cart">
+					<img src="img/icon_cart.png">
+					<span>2</span>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<form class="container checkout">
+		
+		<div class="col-md-6">
+			<label>
+				Nome*
+				<input type="text" required>
+			</label>
+			<label>
+				E-mail*
+				<input type="email" required>
+			</label>
+			<label>
+				CPF*
+				<input type="text" class="checkout_cpf" required>
+			</label>
+
+			<div class="row">
+				<div class="col-md-6">
+					<label>
+						Data de nascimento*
+						<input type="text" class="checkout_birth" required>
+					</label>
+				</div>
+				<div class="col-md-6">
+					<label>
+						Telefone*
+						<input type="text" class="checkout_phone" required>
+					</label>
+				</div>
+			</div>
+
+		</div> <!-- col-md-6 -->
+		
+		<div class="col-md-6">
+			<label>
+				CEP*
+				<input type="text" class="checkout_cep" required>
+			</label>
+
+			<div class="row">
+				<div class="col-md-9">
+					<label>
+						Endereço*
+						<input type="text" required>
+					</label>
+				</div>
+				<div class="col-md-3">
+					<label>
+						N°*
+						<input type="text" required>
+					</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<label>
+						Complemento
+						<input type="text">
+					</label>
+				</div>
+				<div class="col-md-6">
+					<label>
+						Bairro*
+						<input type="text" required>
+					</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8">
+					<label>
+						Cidade*
+						<input type="text" required>
+					</label>
+				</div>
+				<div class="col-md-4">
+					<label>
+						Estado*
+						<input type="text" required>
+					</label>
+				</div>
+			</div>
+
+		</div> <!-- col-md-6 --> 
+
+		<div class="checkout_finish">
+			<button type="submit">Concluir compra</button>
+		</div>
+		
+
+	</form>
+
+	<div class="checkout_fade"></div>
+	<div class="checkout_confirm">
+		<div id="close">X</div>
+		<img src="img/icon_check.png">
+		Seu cadastro foi solicitado com sucesso! 
+		<a href="/index.html"><i class="fas fa-long-arrow-alt-left"></i> Voltar para a home</a>
+	</div>
+
+	<footer>
+		<a href="#">
+			<img src="img/logo-mktplace-footer.png">
+		</a>
+	</footer>
+
+
+</body>
+</html>
